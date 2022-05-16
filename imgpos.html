@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            text-align: center;
+            color: red;
+            font-size: 1em;
+            font-weight: 900;
+        }
+        .center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+        }
+        .b_left{
+            position: absolute;
+            bottom: 1em;
+            left: 1em;
+        }
+        .b_right{
+            position: absolute;
+            bottom: 1em;
+            right: 1em;
+
+        }
+        .t_left{
+            position: absolute;
+            top: 1em;
+            left: 1em;
+        }
+        .t_right{
+            position: absolute;
+            top: 1em;
+            right: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="140.jpg" width="100%">
+        <div class="b_left">Bottom Left</div>
+        <div class="t_left">Top Left</div>
+        <div class="b_right">Bottom Right</div>
+        <div class="t_right">Top Right</div>
+        <div class="center">center</div>
+    </div>    
+</body>
+</html>
